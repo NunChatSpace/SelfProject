@@ -1,0 +1,80 @@
+﻿.menubar {
+    float: right;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.column_image {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row_image::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.tableFixHead {
+    overflow-y: auto;
+    height: 300px;
+}
+
+    .tableFixHead thead th {
+        position: sticky;
+        top: 0;
+    }
+
+/* Just common table stuff. Really. */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px 16px;
+}
+
+th {
+    background: #eee;
+}
+
+/* Slider*/
+#slider {
+    /*padding: 1.5rem;*/
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 0.2rem;
+}
+
+.box-center {
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 30px;
+    opacity: 0;
+    transition: all 800ms linear;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.carousel-item.active .carousel-caption {
+    opacity: 1;
+}
+ 
+/*Search box*/
+#myInput {
+    width: 100%; /* Full-width */
+    height: 32px;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 12px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 1px; /* Add some space below the input */
+}

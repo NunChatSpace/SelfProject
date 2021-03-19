@@ -1,0 +1,176 @@
+2564-01-26 23:34:27 ---- Query to DB : INSERT INTO `stockeditem`(`Date`, `Item`, `Cost`) VALUES ('2564-01-26 23:34:27', 'ItemTest123124', '10')
+2564-01-26 23:39:48 ---- Query to DB : INSERT INTO `stockeditem`(`Date`, `Item`, `Cost`) VALUES ('2564-01-26 23:39:48', 'qweqweqw', '10')
+2564-01-26 23:40:19 ---- Query to DB : INSERT INTO `stockeditem`(`Date`, `Item`, `Cost`) VALUES ('2564-01-26 23:40:15', 'awdawd123aw1d3', '1234')
+2564-01-26 23:40:37 ---- Query to DB : INSERT INTO `stockeditem`(`Date`, `Item`, `Cost`) VALUES ('2564-01-26 23:40:37', 'awdawdadw12321314124124', '984')
+2564-02-01 23:15:58 ---- Query to DB : INSERT INTO `stockeditem`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-01 23:15:53', 'Test01022564', '1234', 1)
+2564-02-01 23:19:28 ---- Query to DB : INSERT INTO `stockeditem`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-01 23:19:26', '_ABC', '123456789', 10)
+2564-02-01 23:20:20 ---- Query to DB : INSERT INTO `stockeditem`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-01 23:20:20', 'awd6546546', '98749879', 1)
+2564-02-02 00:50:53 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 00:51:54 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-02%'
+2564-02-02 00:52:12 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 00:52:50 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-02%'
+2564-02-02 00:52:54 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 00:54:20 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-02%'
+2564-02-02 00:54:26 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 00:55:54 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-02%'
+2564-02-02 00:55:59 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 01:06:13 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 01:06:13 ---- Receive Size : 3
+2564-02-02 01:06:49 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-02%'
+2564-02-02 01:06:49 ---- Receive Size : 0
+2564-02-02 01:07:02 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 01:07:02 ---- Receive Size : 3
+2564-02-02 01:08:40 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 01:08:40 ---- Receive Size : 3
+2564-02-02 01:10:44 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-02%'
+2564-02-02 01:10:44 ---- Receive Size : 0
+2564-02-02 01:11:24 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 01:11:24 ---- Receive Size : 3
+2564-02-02 01:12:55 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 01:12:55 ---- Receive Size : 3
+2564-02-02 01:13:01 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-02%'
+2564-02-02 01:13:01 ---- Receive Size : 0
+2564-02-02 01:13:06 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 01:13:06 ---- Receive Size : 3
+2564-02-02 01:13:27 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-02%'
+2564-02-02 01:13:28 ---- Receive Size : 0
+2564-02-02 01:13:30 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 01:13:31 ---- Receive Size : 3
+2564-02-02 01:14:44 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 01:14:44 ---- Receive Size : 3
+2564-02-02 01:17:26 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 01:17:26 ---- Receive Size : 3
+2564-02-02 01:18:41 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-01%'
+2564-02-02 01:18:41 ---- Receive Size : 3
+2564-02-04 01:16:21 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-04%'
+2564-02-04 01:16:28 ---- Receive Size : 0
+2564-02-04 01:19:20 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-04%'
+2564-02-04 01:19:44 ---- Receive Size : 0
+2564-02-04 01:20:02 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-03%'
+2564-02-04 01:20:02 ---- Receive Size : 115
+2564-02-04 01:20:35 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-03%'
+2564-02-04 01:20:35 ---- Receive Size : 115
+2564-02-04 01:20:36 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-04%'
+2564-02-04 01:20:37 ---- Receive Size : 0
+2564-02-04 01:20:53 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-04%'
+2564-02-04 01:20:53 ---- Receive Size : 0
+2564-02-04 01:20:58 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-03%'
+2564-02-04 01:20:58 ---- Receive Size : 115
+2564-02-04 01:52:09 ---- Query to DB : SELECT* FROM `stockeditem` WHERE `Date` Like '%2564-02-03%'
+2564-02-06 21:55:33 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 21:55:33', 'ItemTest', '123', 1)
+2564-02-06 21:57:21 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 21:57:21', 'test', '123456', 1)
+2564-02-06 21:58:34 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 21:58:34', 'trqaw', '159', 1)
+2564-02-06 21:59:03 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 21:59:03', 'awdawd', '564', 1)
+2564-02-06 22:00:08 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 22:00:08', 'awd', '65465', 1)
+2564-02-06 22:02:50 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 22:02:50', 'awd', '3', 1)
+2564-02-06 22:03:18 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 22:03:18', 'awd', '789', 1)
+2564-02-06 22:28:14 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 22:28:14', 'awd', '1234', 1)
+2564-02-06 22:30:46 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 22:30:46', 'awd', '123', 1)
+2564-02-06 22:32:56 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 22:32:56', 'awd', '1234', 1)
+2564-02-06 22:33:34 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 22:33:34', 'awd', '456', 1)
+2564-02-06 22:38:06 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 22:38:06', 'awdawd', '654', 1)
+2564-02-06 22:42:27 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 22:42:27', 'awd', '987', 1)
+2564-02-06 22:45:04 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 22:45:04', 'asdf', '4568', 1)
+2564-02-06 22:54:39 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 22:54:39', 'awd', '987654', 1)
+2564-02-06 22:55:28 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 22:55:28', 'awd', '123124', 1)
+2564-02-06 23:03:34 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`) VALUES ('2564-02-06 23:03:34', 'awdaw', '12356', 1)
+2564-02-06 23:18:57 ---- Query to DB : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''D:\SelfProject\HomeProject\StockManagement\StockManagement\StockManagement\U...' at line 1
+2564-02-07 02:38:47 ---- Query to DB : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''D:\SelfProject\HomeProject\StockManagement\StockManagement\StockManagement\U...' at line 1
+2564-02-07 02:46:23 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`, `ImagesSource`) VALUES ('2564-02-07 02:46:20', 'TestImage20210602rd9', '123456789', 1, 'D:\\SelfProject\\HomeProject\\StockManagement\\StockManagement\\StockManagement\\UploadedImages\\TestImage20210602rd9\\')
+2564-02-10 23:41:18 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 
+2564-02-10 23:41:18 ---- Query to DB : Connection must be valid and open.
+2564-02-10 23:54:11 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 
+2564-02-10 23:54:11 ---- Query to DB : Connection must be valid and open.
+2564-02-11 00:01:52 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 
+2564-02-11 00:01:52 ---- Query to DB : Connection must be valid and open.
+2564-02-11 00:03:16 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = michael kors สีเทา
+2564-02-11 00:03:16 ---- Query to DB : Connection must be valid and open.
+2564-02-11 00:05:50 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:05:50 ---- Query to DB : Connection must be valid and open.
+2564-02-11 00:06:43 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:10:06 ---- Query to DB : Connection must be valid and open.
+2564-02-11 00:10:50 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:11:15 ---- Query to DB : Connection must be valid and open.
+2564-02-11 00:14:04 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:14:30 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:16:19 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:20:34 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:20:55 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:21:37 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:22:01 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:22:33 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:22:39 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:23:38 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:23:46 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:26:29 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:26:31 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:27:40 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:27:55 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:27:59 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:31:13 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:32:15 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:33:34 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:34:27 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:35:33 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:49:44 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 00:49:47 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 23:14:19 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-11 23:35:56 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'TestImage20210602rd9'
+2564-02-11 23:36:27 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'TestImage20210602rd9'
+2564-02-12 22:45:29 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-12 22:45:35 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-12 22:47:17 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-13 02:35:43 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 00:46:27 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 00:47:48 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors shopping'
+2564-02-14 00:47:52 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีครีม'
+2564-02-14 00:47:55 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors แท้สีแดง'
+2564-02-14 00:48:04 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Citilife หมอนขาว'
+2564-02-14 00:48:22 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'หลุยบั๊กเก็ต'
+2564-02-14 00:48:41 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors แท้สีแดง'
+2564-02-14 00:53:28 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 00:54:05 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 00:55:06 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 00:55:40 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 00:56:13 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 00:56:18 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 00:57:38 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 00:58:08 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 00:59:52 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 01:00:47 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 01:02:01 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 01:12:53 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors สีเทา'
+2564-02-14 01:13:22 ---- Query to DB : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kors สีเทา,`Cost`=201,`SaleCost`=0,`Profit`=0,`SendCost`=0,`SendCos...' at line 1
+2564-02-14 01:13:23 ---- Query to DB : DELETE FROM `stockeditem_test` WHERE `ItemOwnerID` =1
+2564-02-14 01:13:23 ---- Query to DB : INSERT INTO `item_owner_test`(`item_id`, `customer_name`) VALUES ({0},{1})
+2564-02-14 01:13:23 ---- Query to DB : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0},{1})' at line 1
+2564-02-14 01:14:17 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors แท้สีแดง'
+2564-02-14 01:14:28 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors แท้สีแดง'
+2564-02-14 01:14:58 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors แท้สีแดง'
+2564-02-14 01:15:16 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors แท้สีแดง'
+2564-02-14 01:18:09 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors แท้สีแดง'
+2564-02-14 01:20:21 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'michael kors แท้สีแดง'
+2564-02-14 01:22:32 ---- Query to DB : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'kors แท้สีแดง,`Cost`=303,`SaleCost`=0,`Profit`=0,`SendCost`=0...' at line 1
+2564-02-14 01:22:32 ---- Query to DB : DELETE FROM `stockeditem_test` WHERE `ItemOwnerID` =0
+2564-02-14 01:22:32 ---- Query to DB : INSERT INTO `item_owner_test`(`item_id`, `customer_name`) VALUES ({0},{1})
+2564-02-14 01:22:32 ---- Query to DB : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0},{1})' at line 1
+2564-02-14 02:26:58 ---- Query to DB : INSERT INTO `stockeditem_test`(`Date`, `Item`, `Cost`, `itemCount`, `ImagesSource`) VALUES ('2564-02-14 02:26:58', 'Test1', '1234', 1, 'D:\\SelfProject\\HomeProject\\StockManagement\\StockManagement\\StockManagement\\UploadedImages\\Test1\\')
+2564-02-14 02:48:27 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 21:54:02 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 21:54:57 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 21:55:05 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 21:55:33 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 21:55:59 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 21:56:56 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 22:12:52 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 22:13:02 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 22:13:10 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 22:15:13 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 22:20:54 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 22:22:05 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 22:22:31 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 22:39:03 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 22:39:25 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 22:40:24 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 22:40:50 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'
+2564-02-14 22:41:09 ---- Query to DB : SELECT `itemCount`, `Cost`, `SaleCost`, `Profit`, `SendCost`, `SendCostProfit`, `PakagingCost`, `ItemOwnerID` FROM `stockeditem_test` WHERE `Item` = 'Test1'

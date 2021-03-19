@@ -1,0 +1,7 @@
+C:\Users\nunch\source\repos\StockManagement\Log\bin\Debug\Log.exe.config
+C:\Users\nunch\source\repos\StockManagement\Log\bin\Debug\Log.exe
+C:\Users\nunch\source\repos\StockManagement\Log\bin\Debug\Log.pdb
+C:\Users\nunch\source\repos\StockManagement\Log\obj\Debug\Log.csprojAssemblyReference.cache
+C:\Users\nunch\source\repos\StockManagement\Log\obj\Debug\Log.csproj.CoreCompileInputs.cache
+C:\Users\nunch\source\repos\StockManagement\Log\obj\Debug\Log.exe
+C:\Users\nunch\source\repos\StockManagement\Log\obj\Debug\Log.pdb
